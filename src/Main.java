@@ -41,22 +41,22 @@ public class Main {
 //        System.out.println("Средний возраст людей: "+ avg);
 
 // Пример работы методов с классами и объектами - Собака
-//        Dog dog1 = new Dog();
-//        dog1.name = "Jack";
-//        dog1.breed = "Dachshund";
-//        dog1.wight = 2;
-//        dog1.run = 4;
-//
-//        Dog dog2 = new Dog();
-//        dog2.name = "Pook";
-//        dog2.breed = "Bloodhound";
-//        dog2.wight = 1.5;
-//        dog2.run = 2;
-//
-//        System.out.println(dog1.getResult());
-//        dog1.getRunResult();
-//
-//        System.out.println(dog2.getResult());
-//        dog2.getRunResult();
+        Dog dog1 = new Dog();
+        dog1.name = "Jack";
+        dog1.breed = "Dachshund";
+        dog1.wight = 2;
+        dog1.run = 4;
+
+        Dog dog2 = new Dog();
+        dog2.name = "Pook";
+        dog2.breed = "Bloodhound";
+        dog2.wight = 1.5;
+        dog2.run = 2;
+
+        System.out.println(dog1.getResult());
+        dog1.getRunResult();
+
+        System.out.println(dog2.getResult());
+        dog2.getRunResult();
     }
 }

@@ -13,5 +13,6 @@ public class Dog {
         for (int i = 1; i <= run; i++){
             System.out.println("Бегу");
         }
+
     }
 }

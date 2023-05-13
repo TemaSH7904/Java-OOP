@@ -7,7 +7,7 @@ public class Main {
 //    box1.length = 10;
 //    box1.width = 5;
 //    box1.height = 2;
-//
+
 //    Box box2 = new Box();
 //
 //    box2.length = 5;
@@ -58,5 +58,11 @@ public class Main {
 //
 //        System.out.println(dog2.getResult());
 //        dog2.getRunResult();
+
+// Пример работы с передачей переменных в класс Rectangle (Прямоугольник) и вызов метода для вывода площади прямогульника.
+//        Rectangle rectangle = new Rectangle();
+//        rectangle.setDimens(5,5);
+//        rectangle.showResult();
+
     }
 }

@@ -2,9 +2,9 @@
 //Объект - реально существующее (Красная коробка, размером 2 на 2)
 public class Box {
 
-    Double height;
-    Double length;
-    Double width;
+    double height;
+    double length;
+    double width;
     double getVolume(){
         return height * length * width;
     }

@@ -5,8 +5,27 @@ public class Box {
     double height;
     double length;
     double width;
-    double getVolume(){
+
+    Box(){
+        this.height = 5;
+        this.length = 5;
+        this.width = 5;
+    }
+
+    Box(double height, double length, double width){
+        this.height = height;
+        this.length = length;
+        this.width = width;
+    }
+
+    double getVolume() {
         return height * length * width;
+    }
+
+    void setDimens(double height, double length, double width){
+        this.height = height;
+        this.length = length;
+        this.width = width;
     }
 
     void showVolume(){

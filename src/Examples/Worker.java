@@ -1,3 +1,5 @@
+package Examples;
+
 public class Worker {
     String name;
     String position;
@@ -11,9 +13,9 @@ public class Worker {
 
     void showInfo(){
         System.out.println(
-                "Worker name: " + name +
-                "\nWorker position: " + position +
-                "\nWorker salary: " + salary + " $"
+                "Examples.Worker name: " + name +
+                "\nExamples.Worker position: " + position +
+                "\nExamples.Worker salary: " + salary + " $"
                 );
     }
 

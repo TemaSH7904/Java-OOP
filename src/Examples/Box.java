@@ -1,18 +1,20 @@
+package Examples;
+
 //Класс - шаблон, по которму строится объект (Собака - шерсть, порода, размер)
 //Объект - реально существующее (Красная коробка, размером 2 на 2)
 public class Box {
 
-    double height;
-    double length;
-    double width;
+    private double height;
+    private double length;
+    private double width;
 
-    Box(){
+    public Box(){
         this.height = 5;
         this.length = 5;
         this.width = 5;
     }
 
-    Box(double height, double length, double width){
+    public Box(double height, double length, double width){
         this.height = height;
         this.length = length;
         this.width = width;
@@ -22,13 +24,13 @@ public class Box {
         return height * length * width;
     }
 
-    void setDimens(double height, double length, double width){
+    public void setDimens(double height, double length, double width){
         this.height = height;
         this.length = length;
         this.width = width;
     }
 
-    void showVolume(){
+    public void showVolume(){
         System.out.println(getVolume());
     }
 }

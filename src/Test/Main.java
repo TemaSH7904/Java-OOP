@@ -4,19 +4,21 @@ import Examples.*;
 public class Main {
     public static void main(String[] args) {
 
+
+        System.out.println(MyMath.multiple(5, 6));
+
 //    Пример работы с классами и объектами - коробка
 //    Последняя запись является примером работы с конструкторами
         /*
         Использование конструктора выполняется для присваивания данных переменных при инициализации объектов через new,
         а использование методов с this.height=height, выполняется для присвания данных переменным в методу.
         */
-    Examples.Box box1 = new Examples.Box();
-    box1.showVolume();
-
-    Examples.Box box2 = new Examples.Box(10,10,10);
-    box2.showVolume();
-    box2.setDimens(4, 5, 6);
-
+//    Examples.Box box1 = new Examples.Box();
+//    box1.showVolume();
+//
+//    Examples.Box box2 = new Examples.Box(10,10,10);
+//    box2.showVolume();
+//    box2.setDimens(4, 5, 6);
 
 //    Пример работы с классами и объектами - люди. Несколько людей с полями Имя, Возраст и Вес.
 //    Вывод среднего возраста человека

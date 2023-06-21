@@ -2,10 +2,20 @@ package Test;
 
 import Examples.*;
 public class Main {
+
     public static void main(String[] args) {
-
-
-        System.out.println(MyMath.multiple(5, 6));
+        MyArrayList arrayList = new MyArrayList();
+        arrayList.Add();
+//
+///*
+//Коллекции.
+//Есть класс с массивом имен
+//*/
+//        String[] employees = getEmployees();
+//        for (String employee : employees) {
+//            System.out.println(employee);
+//        }
+//        System.out.println(MyMath.multiple(5, 6));
 
 //    Пример работы с классами и объектами - коробка
 //    Последняя запись является примером работы с конструкторами
@@ -126,4 +136,14 @@ Set-ры используются для присваивания значени
 //        System.out.println("Name: "+ person.getName()+"\nAge person: "+person.getAge()); //Вызов переменных
 
     }
+    //"Внешний класс с массивом, в котором хранятся имена"
+//    public static String[] getEmployees(){
+//        String[] employees = new String[5];
+//        employees[0] = "Nick";
+//        employees[1] = "Karl";
+//        employees[2] = "Sasha";
+//        employees[3] = "Alex";
+//        employees[4] = "Max";
+//        return employees;
+//    }
 }

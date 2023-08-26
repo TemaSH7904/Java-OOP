@@ -1,15 +1,91 @@
 package Test;
 
-import Examples.*;
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
-        MyArrayList arrayList = new MyArrayList();
-        arrayList.Add();
+        ArrayList<String> numName = new ArrayList<>();
+        ArrayList<Integer> num = number();
+        ArrayList<String> names = names();
+
+    }
+
+
+    private static ArrayList<Integer> number(){
+        ArrayList<Integer> num = new ArrayList<>();
+        for(int i = 0; i < 5; i++){
+            num.add(i);
+        }
+        return num;
+    }
+
+    private static ArrayList<String> names(){
+        ArrayList<String> name = new ArrayList<>();
+        name.add("Jhon");
+        name.add("Artem");
+        name.add("Anton");
+        name.add("Max");
+        name.add("Natsha");
+        return name;
+    }
+
+//    Оболочки типов - преобразуют тип String в int, с помощью Integer.parseInt().
+//    Substring - позволяет вытащить из строки числа или символы, с помощью указания индекса.
+//    public static void main(String[] args) {
+//        String sentence = "This is Jhon. He is 27 years old.";
+//        String name = sentence.substring(8, 12);
+//        String ageString = sentence.substring(20, 22);
+//        int age = Integer.parseInt(ageString);
+//
+//        System.out.println(name + "\n" + age);
+//
+//        String numString0 = "1000";
+//        String numString1 = "2000";
+//
+//        int numInt0 = Integer.parseInt(numString0);
+//        int numInt1 = Integer.parseInt(numString1);
+//
+//        System.out.println(numString0 + numString1);
+//        System.out.println(numInt0 + numInt1 );
+//
+//        Person person0 = new Person(name, age);
+//
+//        System.out.println(person0.getName() + "\n" + person0.getAge());
+
+    }
+
+
+   /*Коллекции.
+    // Собственная коллекция ArrayList
+    public static void main(String[] args) {
+    MyArrayList employees = getEmployees();
+    employees.add("Anton");
+    employees.remove("Jhon");
+    employees.remove(1);
+
+    for(int i = 0; i < employees.getSize(); i++){
+        System.out.println(employees.get(i));
+    }
+
+    }
+    private static MyArrayList getEmployees(){
+        MyArrayList employees = new MyArrayList();
+
+        employees.add("Jhon");
+        employees.add("Natasha");
+        employees.add("Dina");
+        employees.add("Artem");
+        employees.add("Den");
+        return employees;
+    }
+*/
+
 //
 ///*
 //Коллекции.
 //Есть класс с массивом имен
+
 //*/
 //        String[] employees = getEmployees();
 //        for (String employee : employees) {
@@ -96,7 +172,7 @@ public class Main {
 метода max у класса Math - выводом будет большее из двух чисел*/
 //        System.out.println(Math.max(100, 101));
 
-        //Мостр 1 - без указания количества глаз, рук и ног, выводом voice.
+    //Мостр 1 - без указания количества глаз, рук и ног, выводом voice.
 //        Examples.Monster monster = new Examples.Monster();
 //        System.out.println(
 //                "Монстр 1:"+
@@ -106,7 +182,7 @@ public class Main {
 //        );
 //        monster.voice();
 
-        //Монстр 2 - с указанием одинакого количества глаз, рук и ног, выводом voice.
+    //Монстр 2 - с указанием одинакого количества глаз, рук и ног, выводом voice.
 //        Examples.Monster monster = new Examples.Monster(3);
 //                System.out.println(
 //                "Монстр 2:"+
@@ -116,7 +192,7 @@ public class Main {
 //                );
 //        monster.voice(3);
 
-       //Монстр 3 - с указанием количества глаз, рук и ног, выводом voice.
+    //Монстр 3 - с указанием количества глаз, рук и ног, выводом voice.
 //        Examples.Monster monster = new Examples.Monster(1,4,2);
 //        System.out.println(
 //                "Монстр 3:"+
@@ -135,7 +211,7 @@ Set-ры используются для присваивания значени
 //         на значение (>=0), иначе присвоиться значение из конструктора */
 //        System.out.println("Name: "+ person.getName()+"\nAge person: "+person.getAge()); //Вызов переменных
 
-    }
+    //}
     //"Внешний класс с массивом, в котором хранятся имена"
 //    public static String[] getEmployees(){
 //        String[] employees = new String[5];
@@ -146,4 +222,3 @@ Set-ры используются для присваивания значени
 //        employees[4] = "Max";
 //        return employees;
 //    }
-}

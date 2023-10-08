@@ -1,34 +1,32 @@
 package Test;
 
-import java.util.ArrayList;
+
+import Examples.Rectangle;
 
 public class Main {
 
     public static void main(String[] args) {
-        ArrayList<String> numName = new ArrayList<>();
-        ArrayList<Integer> num = number();
-        ArrayList<String> names = names();
 
     }
 
 
-    private static ArrayList<Integer> number(){
-        ArrayList<Integer> num = new ArrayList<>();
-        for(int i = 0; i < 5; i++){
-            num.add(i);
-        }
-        return num;
-    }
-
-    private static ArrayList<String> names(){
-        ArrayList<String> name = new ArrayList<>();
-        name.add("Jhon");
-        name.add("Artem");
-        name.add("Anton");
-        name.add("Max");
-        name.add("Natsha");
-        return name;
-    }
+//    private static ArrayList<Integer> number(){
+//        ArrayList<Integer> num = new ArrayList<>();
+//        for(int i = 0; i < 5; i++){
+//            num.add(i);
+//        }
+//        return num;
+//    }
+//
+//    private static ArrayList<String> names(){
+//        ArrayList<String> name = new ArrayList<>();
+//        name.add("Jhon");
+//        name.add("Artem");
+//        name.add("Anton");
+//        name.add("Max");
+//        name.add("Natsha");
+//        return name;
+//    }
 
 //    Оболочки типов - преобразуют тип String в int, с помощью Integer.parseInt().
 //    Substring - позволяет вытащить из строки числа или символы, с помощью указания индекса.
@@ -53,7 +51,7 @@ public class Main {
 //
 //        System.out.println(person0.getName() + "\n" + person0.getAge());
 
-    }
+}
 
 
    /*Коллекции.
@@ -172,7 +170,7 @@ public class Main {
 метода max у класса Math - выводом будет большее из двух чисел*/
 //        System.out.println(Math.max(100, 101));
 
-    //Мостр 1 - без указания количества глаз, рук и ног, выводом voice.
+//Мостр 1 - без указания количества глаз, рук и ног, выводом voice.
 //        Examples.Monster monster = new Examples.Monster();
 //        System.out.println(
 //                "Монстр 1:"+
@@ -182,7 +180,7 @@ public class Main {
 //        );
 //        monster.voice();
 
-    //Монстр 2 - с указанием одинакого количества глаз, рук и ног, выводом voice.
+//Монстр 2 - с указанием одинакого количества глаз, рук и ног, выводом voice.
 //        Examples.Monster monster = new Examples.Monster(3);
 //                System.out.println(
 //                "Монстр 2:"+
@@ -192,7 +190,7 @@ public class Main {
 //                );
 //        monster.voice(3);
 
-    //Монстр 3 - с указанием количества глаз, рук и ног, выводом voice.
+//Монстр 3 - с указанием количества глаз, рук и ног, выводом voice.
 //        Examples.Monster monster = new Examples.Monster(1,4,2);
 //        System.out.println(
 //                "Монстр 3:"+
@@ -211,8 +209,8 @@ Set-ры используются для присваивания значени
 //         на значение (>=0), иначе присвоиться значение из конструктора */
 //        System.out.println("Name: "+ person.getName()+"\nAge person: "+person.getAge()); //Вызов переменных
 
-    //}
-    //"Внешний класс с массивом, в котором хранятся имена"
+//}
+//"Внешний класс с массивом, в котором хранятся имена"
 //    public static String[] getEmployees(){
 //        String[] employees = new String[5];
 //        employees[0] = "Nick";

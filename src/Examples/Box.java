@@ -9,19 +9,20 @@ public class Box {
     private double width;
 
     public Box(){
-        this.height = 5;
-        this.length = 5;
-        this.width = 5;
+        this(10);
     }
 
-    public Box(double height, double length, double width){
+    public void Show(){
+        System.out.println("Высота - " + width + " Ширина - " + height + " Длина - " + length);
+    }
+
+    public Box(double length, double height, double width){
         this.height = height;
         this.length = length;
         this.width = width;
     }
-
-    double getVolume() {
-        return height * length * width;
+    public Box(double size){
+        this(size, size, size);
     }
 
     public void setDimens(double height, double length, double width){
@@ -30,7 +31,4 @@ public class Box {
         this.width = width;
     }
 
-    public void showVolume(){
-        System.out.println(getVolume());
-    }
 }
